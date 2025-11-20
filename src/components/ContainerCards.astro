@@ -6,21 +6,23 @@ const arrayCards = [
     localImage: '/assets/slideshows.avif',
     id: '001'
   },
-    {
+  {
     title: 'Simple Multilingual Site',
     web: 'https://d960960gm.wixsite.com/velo-multi-box-state/es',
     localImage: '/assets/simple-multilingual-site.avif',
     id: '002'
-  }
+  },
+  {
+    title: 'Using Usercentrics cookie banner',
+    web: 'https://d960960gm.wixsite.com/usercentrics-banner',
+    localImage: '/assets/using-usercentrics-cookie-banner.avif',
+    id: '003'
+  },
 ];
 ---
 
-<section class="am-container-cards">
-  {
-    arrayCards.map(({ id, localImage, web, title }) => (
-      <aside class='card' />
-    ))
-  }
+<section class='am-container-cards'>
+  {arrayCards.map(({ id, localImage, web, title }) => <aside class='card' />)}
 </section>
 
 <style>
