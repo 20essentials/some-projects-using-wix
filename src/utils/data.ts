@@ -1,0 +1,123 @@
+export const arrayCards = [
+  {
+    title: 'Slideshow',
+    web: 'https://d960960gm.wixsite.com/slideshow',
+    localImage: '/assets/slideshows.avif',
+    id: '001'
+  },
+  {
+    title: 'Simple Multilingual Site',
+    web: 'https://d960960gm.wixsite.com/velo-multi-box-state/es',
+    localImage: '/assets/simple-multilingual-site.avif',
+    id: '002'
+  },
+  {
+    title: 'Using Usercentrics cookie banner',
+    web: 'https://d960960gm.wixsite.com/usercentrics-banner',
+    localImage: '/assets/using-usercentrics-cookie-banner.avif',
+    id: '003'
+  },
+  {
+    title: 'Practicing Wix Prox galley',
+    web: 'https://d960960gm.wixsite.com/wix-pro-gallery/collage',
+    localImage: '/assets/wix-pro-gallery-practice.avif',
+    id: '004'
+  },
+  {
+    title: 'Pagination and Filters',
+    web: 'https://d960960gm.wixsite.com/pagination/recipes',
+    localImage: '/assets/pagination-and-filters.avif',
+    id: '005'
+  },
+  {
+    title:
+      'Using the rich text input element to collect content from site visitors',
+    web: 'https://d960960gm.wixsite.com/rich-text-input/',
+    localImage: '/assets/rich-text-input-to-collect-content.avif',
+    id: '006'
+  },
+  {
+    title: 'Podcast Player',
+    web: 'https://d960960gm.wixsite.com/podcast-player',
+    localImage: '/assets/podcast-player.avif',
+    id: '007'
+  },
+  {
+    title: 'Wix Music Player',
+    web: 'https://d960960gm.wixsite.com/wix-music-player',
+    localImage: '/assets/wix-music-player.avif',
+    id: '008'
+  },
+  {
+    title: 'Spotify Player',
+    web: 'https://d960960gm.wixsite.com/spotify-player',
+    localImage: '/assets/spotify-player.avif',
+    id: '009'
+  },
+  {
+    title: 'Displaying Addresses from Your Collection Items on Google Maps',
+    web: 'https://d960960gm.wixsite.com/collection-on-map',
+    localImage: '/assets/collection-on-map.avif',
+    id: '010'
+  },
+  {
+    title: 'Dynamic Pages that List Items by Category',
+    web: 'https://d960960gm.wixsite.com/items-by-category',
+    localImage: '/assets/dynamic-pages.avif',
+    id: '011'
+  },
+  {
+    title: 'Table CMS',
+    web: 'https://d960960gm.wixsite.com/table',
+    localImage: '/assets/table.avif',
+    id: '012'
+  },
+  {
+    title: 'Multi Reference',
+    web: 'https://d960960gm.wixsite.com/multi-reference',
+    localImage: '/assets/multi-reference.avif',
+    id: '013'
+  },
+  {
+    title: 'Filter inputs Practice',
+    web: 'https://d960960gm.wixsite.com/inputs',
+    localImage: '/assets/filter-inputs-practice.avif',
+    id: '014'
+  },
+  {
+    title: 'User Opinion',
+    web: 'https://d960960gm.wixsite.com/user-opinion',
+    localImage: '/assets/user-opinion.avif',
+    id: '015'
+  },
+  {
+    title: 'Personal Trainer Landing',
+    web: 'https://d960960gm.wixsite.com/personal-trainer',
+    localImage: '/assets/personal-trainer.avif',
+    id: '016'
+  },
+  {
+    title: 'Centro odontoiatrico Landing',
+    web: 'https://d960960gm.wixsite.com/centro-odontoiatrico',
+    localImage: '/assets/centro-odontoiatrico.avif',
+    id: '017'
+  },
+  {
+    title: 'Youtube Feed - Logos By Nick',
+    web: 'https://d960960gm.wixsite.com/youtube-feed',
+    localImage: '/assets/youtube-feed.avif',
+    id: '018'
+  },
+  {
+    title: 'Wix Video',
+    web: 'https://d960960gm.wixsite.com/wix-video',
+    localImage: '/assets/wix-video.avif',
+    id: '019'
+  },
+  {
+    title: 'Wix Portfolio',
+    web: 'https://d960960gm.wixsite.com/wix-portfolio/portfolio',
+    localImage: '/assets/wix-portfolio.avif',
+    id: '020'
+  }
+];

@@ -3,18 +3,38 @@ import { baseUrl } from '@/utils/functions';
 const logo = baseUrl('/assets/css-logo.svg');
 ---
 
-<section class="am-hero">
-  <h1>
+<section class='am-hero'>
+  <!-- <h1>
     20 PROJECTS WITH CSS <img src={logo} alt='Logo' />
-  </h1>
+  </h1> -->
+  <h1>BUTTERFLIES<br />BACKGROUND</h1>
 </section>
 <style>
   .am-hero {
     height: 100vh;
     position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    place-content: center;
   }
 
   h1 {
+    --fontSize: 50px;
+    --lineHeight: 70px;
+    width: auto;
+    height: calc(2 * var(--lineHeight));
+    line-height: var(--lineHeight);
+    font-size: var(--fontSize);
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    user-select: none;
+    text-shadow:
+      0 0 5px #000000,
+      0 0 20px #000;
+  }
+
+  /*  h1 {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -30,5 +50,5 @@ const logo = baseUrl('/assets/css-logo.svg');
       width: 4vmax;
       transform: translateY(0.3vmax);
     }
-  }
+  } */
 </style>

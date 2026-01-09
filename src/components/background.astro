@@ -1,33 +1,15 @@
 <div id='app'>
-  <div id='hero'>
-    <!-- <h1>BUTTERFLIES<br />BACKGROUND</h1> -->
-  </div>
+  <div id='hero'></div>
 </div>
 
 <style>
   #app {
     overflow: hidden;
     touch-action: pan-up;
-    color: #ffffff;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    text-shadow:
-      0 0 5px #000000,
-      0 0 20px #000;
     user-select: none;
     position: fixed;
     height: 100vh;
     width: 100%;
-  }
-
-  #app h1 {
-    --fontSize: 50px;
-    --lineHeight: 70px;
-    width: auto;
-    height: calc(2 * var(--lineHeight));
-    line-height: var(--lineHeight);
-    margin: calc(50vh - var(--lineHeight)) auto 0;
-    font-size: var(--fontSize);
   }
 
   #app canvas {
